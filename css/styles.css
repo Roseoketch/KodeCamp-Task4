@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+  
+  
   body{
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
   }
   .navbar{
     background-color: black;
-
+    font-weight: bold;
   }
 
 
@@ -106,12 +111,11 @@ main>section>.row>.col-md>p{
   word-spacing: 5px;
 }
 
-main>section>.row>.col-md>.btn{
-  padding: 5% 10%;
-  font-size: 16px;
-  border: 1px solid white;
-  background-color: rgb(95, 37, 37);
-  border-style: none;
+main>section>.row>.col-md>button{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: transparent;
 }
 
 
@@ -122,39 +126,93 @@ main>section>.row>.col-md>.btn{
  /* Footer */
  .footer{
    margin-top: 10%;
-   /* background-image: url('../assests/footer-bg.jpg'); */
-   /* background-size: cover;
-   background-repeat: no-repeat; */
+   margin-bottom: .5rem;
+   font-weight: lighter;
+   line-height: 1.2;
  }
 
 
- .footer>#contact>.container{
+ .footer>.container>.row>.text{
    margin-top: 5%;
    margin-bottom: 8%;
+   background-color: #272a34;
+   color: white;
+ }
+
+ .footer>.container>.row>.text>h3{
+   padding-top: 5%;
+   padding-bottom: 5%;
+   font-weight: bold;
+ }
+ .footer>.container>.row>.text>label{
+   color:rgba(255, 255, 255, 0.2) ;
+ }
+
+ .footer>.container>.row>.text>input{
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   background-color: transparent;
+   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 
  }
 
+ .footer>.container>.row>.text>textarea{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 
- .footer>#contact>.container>.col-6{
-   background-color:white;
-   text-align: center;
  }
-
- .footer>#contact>.container>.col-6>div{
-   display: flex;
-   justify-content: space-evenly;
-
-  }
  
-  .footer>#contact>.container>.col-6>div{
-    padding: 10%;
-  }
+ .footer>.container>.row>.text>button{
+   margin-top: 5%;
+   margin-bottom: 5%;
+   padding: 12px 16px;
+   border: none;
+   background-color: #F39422;
+   font-weight: bold;
+   color: white;
+ }
 
-  .footer>#contact>.container>.col-6>div>section{
-    padding-left: 20px;
-    margin-left: auto;
-  }
 
-  .footer>#contact>.container>.col-6>div>.social{
-    padding-left: 20%;
-  }
+ .footer>.container>.row>.contact{
+  margin-top: 5%;
+  margin-bottom: 8%;
+  background-color: #1c1e25;
+  color: white;
+  padding-left: 5%;
+}
+.footer>.container>.row>.contact>h3{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
+  font-weight: bold;
+}
+.footer>.container>.row>.contact>div{
+  display: flex;
+  font-size: 16px;
+  padding: 3% 0;
+}
+.footer>.container>.row>.contact>div>a{
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF05;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+}
+.footer>.container>.row>.contact>p, div>p{
+  padding-left: 5%;
+
+}
+.footer>.container>.row>.contact>div>p{
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer>.container>.row>.contact>p, div>p>span{
+  color: #666666;
+  font-weight: lighter;
+}
