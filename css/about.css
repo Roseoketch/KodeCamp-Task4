@@ -90,16 +90,18 @@
 main>#about{
   margin-top: 10%;
 }
-  
+main>.container>.row>.about{
+  margin-top: 15%;
+
+}
 main>.we-do{
-  color: white;
-  background-color: black;
-  margin-top: 10%;
-  padding: 15% 17%;
+  color: black;
+  background-color: #FFFFFF33;
+  margin-top: 5%;
 
 }
 
-main>.we-do>img{
+main>.we-do>div>img{
   color: #fff;
 }
 

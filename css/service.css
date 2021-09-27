@@ -4,7 +4,7 @@
 body{
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
-  font-weight: 100;
+  
 }
   .navbar{
     background-color: black;
@@ -53,37 +53,48 @@ body{
     color: #fff;
   }
   
- .carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  .carousel-caption {
-    bottom: 270px;
-  }
-  
-  .carousel-caption h5 {
-    font-size: 45px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 25px;
-  }
-  
-  .carousel-caption p {
-    width: 75%;
-    margin: auto;
-    font-size: 18px;
-    line-height: 1.9;
-  }
-  
+ .jumbotron{
+   background-color: white;
+   text-align: center;
+   margin-top: 5%;
+   font-weight: 900 !important;
+ }
+
+main{
+  background-image: url('../assests/main.jpeg');
+}
+main>.container{
+  padding-top: 12%;
+  padding-bottom: 10%;
+  color: white;
+}
+
+main>.container>.row>.col-md-4>h3{
+  padding: 8% 5%;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+main>.container>.row>.col-md-4>p{
+  margin-left: auto;
+}
+main>.container>.row>.col-md-4>a{
+  margin-left: 5%;
+  padding-right: 30%;
+  color: white;
+  font-weight: 900;
+}
 
 
-
-
+main>.container>.row>.col-md-4>button{
+  background-color: #F39422;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bolder;
+  color: black;
+  border-radius: 30px;
+  margin-bottom: 5%;
+}
   /* Footer */
   .footer{
     margin-top: 10%;
