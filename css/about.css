@@ -94,6 +94,9 @@ main>.container>.row>.about{
   margin-top: 15%;
 
 }
+main>.container>.row>.me{
+  margin-top: 10%;
+}
 main>.we-do{
   color: black;
   background-color: #FFFFFF33;
