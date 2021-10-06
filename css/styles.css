@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+main{
+    background-image: url('../assests/main-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+nav>div>a>h1{
+    font-family: 'Ephesis', cursive;
+    font-weight: bolder;
+}
+
